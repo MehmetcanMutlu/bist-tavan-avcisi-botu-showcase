@@ -7,6 +7,8 @@ Bu repo, BIST Tavan Avcisi Botu adli dusuk gecikmeli park emir tetikleyici proje
 - Login/form doldurma yapmadan sadece zamanli "Onayla" tetigi
 - Hedef saatte milisaniye seviyesinde tetik icin iki asamali zamanlayici
 - Dry-run modu ile tiklama atmadan zamanlama testi
+- CLI override ile anlik parametre degistirme
+- Selector Probe ile yari otomatik buton selector kesfi
 
 ## Teknoloji
 - Python 3.11+
@@ -27,7 +29,9 @@ Bu repo, BIST Tavan Avcisi Botu adli dusuk gecikmeli park emir tetikleyici proje
 - `browser.py`: mevcut tarayici oturumuna baglanma ve buton tetikleme
 - `main.py`: orkestrasyon ve canli UI
 - `dry_run.py`: tiklamasiz test
+- `selector_probe.py`: olasi onay butonu selector adaylarini skorlama
 - `price_calc.py`: BIST fiyat adimi/tavan hesaplamasi
 
 ## Durum
 - Private repoda aktif gelistirme devam ediyor.
+- Public repo yalnizca vitrin amaclidir (kaynak kod private tarafta).
