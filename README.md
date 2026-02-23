@@ -1,6 +1,6 @@
-# Borsa Emir Verme Projesi (Showcase)
+# BIST Tavan Avcisi Botu (Showcase)
 
-Bu repo, BIST kapanis sonrasi park emir onay akisi icin gelistirilen dusuk gecikmeli web tetikleyici projesinin vitrin surumudur.
+Bu repo, BIST Tavan Avcisi Botu adli dusuk gecikmeli park emir tetikleyici projesinin vitrin surumudur.
 
 ## Proje Ozeti
 - Kullanicinin zaten acik olan internet bankaciligi oturumuna baglanma
