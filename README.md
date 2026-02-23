@@ -4,7 +4,8 @@ Bu repo, BIST Tavan Avcisi Botu adli dusuk gecikmeli park emir tetikleyici proje
 
 ## Proje Ozeti
 - Kullanicinin zaten acik olan internet bankaciligi oturumuna baglanma
-- Login/form doldurma yapmadan sadece zamanli "Onayla" tetigi
+- 18:10 aninda refresh veya "Hisse Al" adimi ile sonraki gun fiyat akisini yakalama
+- Hisse secimi (or: BESTE), fiyat seti, tum bakiye, devam ve son onay otomasyonu
 - Hedef saatte milisaniye seviyesinde tetik icin iki asamali zamanlayici
 - Dry-run modu ile tiklama atmadan zamanlama testi
 - CLI override ile anlik parametre degistirme
@@ -27,6 +28,7 @@ Bu repo, BIST Tavan Avcisi Botu adli dusuk gecikmeli park emir tetikleyici proje
 - `config.py`: merkezi ayar yonetimi
 - `timing.py`: hedef zamani yakalama
 - `browser.py`: mevcut tarayici oturumuna baglanma ve buton tetikleme
+- `order_flow.py`: full-order adimlari (refresh, secim, fiyat, bakiye, devam, onay)
 - `main.py`: orkestrasyon ve canli UI
 - `dry_run.py`: tiklamasiz test
 - `selector_probe.py`: olasi onay butonu selector adaylarini skorlama
